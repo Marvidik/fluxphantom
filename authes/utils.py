@@ -16,7 +16,7 @@ def generate_numeric_otp(length=4):
 
 def send_welcome_mail(email, full_name, username,account_type,user_id):
     try:
-        subject = "Welcome to ZyntrixOptions"
+        subject = "Welcome to FluxPhantom"
         message = format_html("""
         <!DOCTYPE html>
         <html lang="en">
@@ -72,11 +72,11 @@ def send_welcome_mail(email, full_name, username,account_type,user_id):
         <body>
             <div class="container">
                 <div class="header">
-                    <h1>Welcome to ZyntrixOptions</h1>
+                    <h1>Welcome to FluxPhantom</h1>
                 </div>
                 <div class="content">
                     <h2>Hello {full_name},</h2>
-                    <p>Thank you for joining <strong>ZyntrixOptions</strong> — your new home for smart, secure, and rewarding investments.</p>
+                    <p>Thank you for joining <strong>FluxPhantom</strong> — your new home for smart, secure, and rewarding investments.</p>
                     <p>Here’s a quick summary of your profile:</p>
                     <table>
                         <tr>
@@ -96,10 +96,10 @@ def send_welcome_mail(email, full_name, username,account_type,user_id):
                     </p>
                     <p style="margin-top: 20px;">Please keep your login credentials safe. Our platform will never ask for your password, OTP, or personal codes.</p>
                     <p>We're excited to have you on board.</p>
-                    <p>– The ZyntrixOptions Team</p>
+                    <p>– The FluxPhantom Team</p>
                 </div>
                 <div class="footer">
-                    &copy; 2025 ZyntrixOptions. All rights reserved.
+                    &copy; 2025 FluxPhantom. All rights reserved.
                 </div>
             </div>
         </body>
@@ -186,10 +186,10 @@ def send_otp_mail(email, otp):
 
                     <p style="margin-top: 20px;">Please keep your login credentials safe. Our platform will never ask for your password, OTP, or personal codes.</p>
                     <p>We're excited to have you on board.</p>
-                    <p>– The ZyntrixOptions Team</p>
+                    <p>– The FluxPhantom Team</p>
                 </div>
                 <div class="footer">
-                    &copy; 2025 ZyntrixOptions. All rights reserved.
+                    &copy; 2025 FluxPhantom. All rights reserved.
                 </div>
             </div>
         </body>
